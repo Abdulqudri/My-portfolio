@@ -377,18 +377,17 @@ span, .logo span {
   gap: 2.5rem;
 }
 .service-box {
-  background: var(--main-color);
+  background: linear-gradient(45deg, var(--main-color), rgb(93,3,114));
   height: 300px;
   border-radius: 3rem;
-  border: 5px solid transparent;
   cursor: pointer;
-  transition: 0.4s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .service-box:hover {
   background: #fff;
   color: #000;
-  border: 5px solid var(--main-color);
-  transform: scale(1.05);
+  border: 3px solid var(--main-color);
+  transform: scale(1.03);
 }
 
 .service-box .service-info {
@@ -467,7 +466,7 @@ span, .logo span {
   font-size: 2.8rem;
 }
 .testimonial-item p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 #star{
   color: gold;
@@ -593,7 +592,7 @@ form textarea{
     padding: 2rem 3%;
   }
   section{
-    padding: 10rem 3% 2rem;
+    padding: 7rem 3% 2rem;
   }
   .heading {
     font-size: 5rem;
@@ -621,7 +620,7 @@ form textarea{
     left: 0;
   }
   .services{
-    padding-bottom: 7rem;
+    padding-bottom: 0;
   }
   .testimonials .wrapper{
     grid-template-columns: repeat(1,1fr);
@@ -688,6 +687,7 @@ form textarea{
   }
   .services-container{
     grid-template-columns: repeat(1,1fr);
+    padding-bottom: 2rem;
   }
   .footer ul li {
     padding: 0 5px;
